@@ -7,7 +7,7 @@ export default class Header extends React.PureComponent {
   }
 
   clickBar = (e) => {
-    if (!e) return;
+    if (!e && !e.target) return;
     this.open = !this.open;
     if (!this.bar) this.bar = e.target;
     if (this.open) {
@@ -21,6 +21,7 @@ export default class Header extends React.PureComponent {
       // this.body.removeAttribute('class');
       // window.scrollTo({top: this.bodyTop})
     }
+    
   }
 
   clickLogo = () => {
@@ -28,7 +29,10 @@ export default class Header extends React.PureComponent {
   }
 
   clickNav = () => {
-    this.clickBar();
+    if (!this.open) return;
+    this.open = false;
+    this.bar.classList.remove('close');
+    this.nav.classList.remove('open');
   }
 
   render () {
