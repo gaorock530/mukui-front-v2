@@ -12,10 +12,10 @@ export default class Footer extends React.PureComponent {
     if (this.index !== 1) {
       this.img.src = "assets/utils/douyin.png";
       this.index = 1;
-      this.img.classList.remove('close');
+      this.img.classList.remove('closeCQ');
     } else {
       this.index = 0;
-      this.img.classList.add('close');
+      this.img.classList.add('closeCQ');
     }
   }
 
@@ -23,16 +23,16 @@ export default class Footer extends React.PureComponent {
     if (this.index !== 2) {
       this.img.src = "assets/utils/weixin.jpeg";
       this.index = 2;
-      this.img.classList.remove('close');
+      this.img.classList.remove('closeCQ');
     } else {
       this.index = 0;
-      this.img.classList.add('close');
+      this.img.classList.add('closeCQ');
     }
   }
 
   close = () => {
     this.index = 0;
-    this.img.classList.add('close');
+    this.img.classList.add('closeCQ');
   }
 
 
@@ -40,7 +40,7 @@ export default class Footer extends React.PureComponent {
     return (
       <footer className="footer">
         <div className="contact">
-          <img ref={el => this.img = el} alt="" src="" onClick={this.close} className="close"></img>
+          <img ref={el => this.img = el} alt="" src="" onClick={this.close} className="closeCQ"></img>
           <a className="c1" href="https://shop363159177.taobao.com/" rel="noopener noreferrer" target="_blank"><div></div></a>
           <div className="c2" ref={el => this.douyin = el} onClick={this.showDouyin}></div>
           <a className="c3" href="https://weibo.com/470038388" rel="noopener noreferrer" target="_blank"><div></div></a>
