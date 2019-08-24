@@ -10,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.3rem;
 }
 
 code {
@@ -22,6 +23,7 @@ a {
   color: inherit;
   cursor: pointer;
 }
+
 
 .frozen {
   position: fixed;

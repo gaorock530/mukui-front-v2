@@ -16,7 +16,7 @@
   background-image: url('/assets/pics/IMG_7592.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .s3 {
   text-align: center;
@@ -76,11 +76,29 @@
   }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 1016px) {
   .sec-dangan {
-    .left, .right {
-      padding: 0;
-    }
+    padding: 20px 0;
+  }
+  .sec-dangan .left {
+    margin-right: 10%;
+  }
+  .sec-dangan .left, .sec-dangan .right {
+    width: 35%;
+    height: 30vw;
+    padding: 0;
+  }
+}
+
+
+@media (max-width: 660px) {
+  .s2 {
+    width: 80%;
+    background-size: contain;
+  }
+  .s4 {
+    width: 80%;
+    background-size: contain;
   }
   
 }
@@ -89,18 +107,11 @@
   .s1 h3{
     font-size: 1rem;
   }
-  .s2 {
-    width: 100%;
-    background-size: contain;
-  }
-  .s4 {
-    width: 100%;
-    background-size: contain;
-  }
-  .sec-dangan {
-    .left, .right {
-      width: 100%;
-      background-size: contain;
-    }
-  }
+  
+  // .sec-dangan {
+  //   .left, .right {
+  //     width: 100%;
+  //     background-size: contain;
+  //   }
+  // }
 }
