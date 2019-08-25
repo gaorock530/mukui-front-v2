@@ -39,7 +39,7 @@ export default () => {
           <div className="advise-pic p5"></div>
           <div className="advise-text t5">
             <h5>术后患者最适合食用海参</h5>
-            <p>海参能够帮助术后患者快速恢复元气，恢复期间可以每天早晚个一头，效果显著。</p>
+            <p>海参能够帮助术后患者快速恢复元气，恢复期间可以每天早晚各一头，效果显著。</p>
           </div>
 
         </div>

@@ -5,7 +5,7 @@ export default () => {
     <section id="jishi">
       <div className="container">
         <div className="s3">
-          <h1>牧葵既食海参</h1>
+          <h1>牧葵即食海参</h1>
           <h2>Instant Sea Cucumber</h2>
         </div>
         <div className="pro-list">
