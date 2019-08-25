@@ -13,7 +13,7 @@ export default () => {
           <div className="advise-pic p1"></div>
           <div className="advise-text t1">
             <h5>孩子吃海参的建议</h5>
-            <p>3岁以上的孩子适合经常使用海参，能够高效的补充营养，增强体质以及促进脑发育，建议单次食用不超过1/2头，每周2头。</p>
+            <p>3岁以上的孩子适合经常食用海参，能够高效的补充营养，增强体质以及促进脑发育，建议单次食用不超过1/2头，每周2头。</p>
           </div>
           <div className="advise-pic p2"></div>
           <div className="advise-text t2">
